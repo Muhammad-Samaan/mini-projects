@@ -1,7 +1,7 @@
 import qrcode
 
-data = input("Enter text or URL: ").strip()
-filename = input("Enter filename: ").strip()
+data = input("Enter text or URL: ")
+filename = input("Enter filename: ")
 
 if not filename.endswith(".png"):
     filename += ".png"
